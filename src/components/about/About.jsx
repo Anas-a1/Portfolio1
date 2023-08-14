@@ -1,9 +1,10 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assects/aboutme.png'
+// import Me from '../../assects/aboutme.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUser } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import myimage from '../../assects/portfolio11.jpg'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="About img" />
+            <img src={myimage} alt="About img" />
           </div>
         </div>
         <div className="about__content">
